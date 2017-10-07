@@ -30,10 +30,11 @@ cd bullet3
 ./build_cmake_pybullet_double.sh
 ```
 
-run vhacd on all exported `.obj` files to make a corresponding `.vhacd.obj` file
+run vhacd on all exported `.obj` files to make a corresponding `.vhacd.obj` file.
+
+`.obj` are used for visual mesh, `.vhacd.obj` are used for collision.
 
 ```
-# replace each .obj with one that's had vhacd run
 ./run_vhacd.sh objs
 ```
 
@@ -46,6 +47,3 @@ use the bullet example `data/cube.udf` as a template
 ./gen_urdfs.py objs
 ```
 
-## deving
-
-* turn on scripting  (menu to right of 'help' drop down)
