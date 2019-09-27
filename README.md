@@ -22,7 +22,6 @@ exported `.objs` are concave only so need to run a convex decomposition on
 meshes. we'll use `vhacd` to do this.
 
 ```
-# make vhacd tool under bullet
 cd ~/dev
 git clone git@github.com:kmammou/v-hacd.git
 cd v-hacd/install
